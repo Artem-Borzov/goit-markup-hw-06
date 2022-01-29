@@ -395,13 +395,12 @@ img {
 }
 .footer .container {
 	display: flex;
+	align-items: baseline;
 }
 .footer-left {
 	margin-right: 70px;
 }
-.footer-right,
 .footer-form {
-	padding-top: 12px;
 	margin-left: auto;
 }
 
@@ -658,8 +657,8 @@ img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(1);
-	width: 528px;
-	height: 581px;
+
+	padding: 40px;
 
 	background-color: var(--main-white-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -694,9 +693,6 @@ img {
 	fill: var(--main-accent-color);
 }
 
-.modal-form {
-	padding: 40px;
-}
 .modal-form-title {
 	font-weight: 700;
 	font-size: 20px;
